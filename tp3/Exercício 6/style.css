@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background-color: rgb(30, 30, 31);
+  width: 90%;
+  max-width: 400px;
+  margin: 20px auto;
+  border: 1px solid #ffffff;
+}
+
+.imagem img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.topo {
+  color: #ffffff;
+  font-size: 30px;
+  padding: 0px 0px 0px 10px;
+}
+.informacao {
+  margin: 0 0 0 20px;
+  color: #ffffff;
+}
+.sumario {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+h3 {
+  font-size: 25px;
+  padding: 0px 200px 0px 20px;
+}
+.like {
+  padding: 5px;
+}
+.dislike {
+  padding: 5px;
+}
+.introducao {
+  line-height: 1.6;
+  color: #ffffff;
+  display: flex;
+  text-align: justify;
+  margin: 10px 20px;
+}
+
+footer {
+  border-top: 2px solid blue;
+}
+
+.movie {
+  padding: 5px 50px 0px 20px;
+}
+.trailer {
+  padding: 10px 20px 5px 20px;
+}
+.share {
+  padding: 10px 20px 5px 20px;
+}
+.hd {
+  padding: 10px 20px 5px 20px;
+}

@@ -1,0 +1,42 @@
+body,
+h1,
+img {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+body {
+  background-color: rgb(146, 166, 211);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.imagem {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.imagem img {
+  width: 350px;
+  height: auto;
+}

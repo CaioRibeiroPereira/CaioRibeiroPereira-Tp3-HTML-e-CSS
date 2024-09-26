@@ -1,0 +1,66 @@
+header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #fff;
+  width: 400px;
+  text-align: center;
+  position: relative;
+}
+
+.perfil-imagem {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid #000000;
+  position: absolute;
+  bottom: -50px;
+}
+
+.texto {
+  padding: 60px 20px 20px;
+}
+.texto h2 {
+  margin: 0;
+  font-size: 35px;
+  color: #000000;
+}
+.texto p {
+  color: #000000;
+  font-size: 15px;
+  margin: 10px 0;
+  text-align: justify;
+}
+
+.botao {
+  padding: 20px;
+}
+
+.botao button {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #000000;
+  border-radius: 10px;
+}
+
+.redesocial {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  color: #000000;
+  text-decoration: none;
+  font-size: 30px;
+  background-color: #007bff;
+}

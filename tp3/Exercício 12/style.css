@@ -1,0 +1,28 @@
+.tarefa {
+  visibility: hidden;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#Container {
+  width: 992px;
+}
+
+header h1 {
+  visibility: hidden;
+}
+.logo {
+  background-color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.logo img {
+  height: 90px;
+  border-radius: 50%;
+}

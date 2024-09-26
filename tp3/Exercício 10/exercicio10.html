@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 10</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Tarefa 10</h1>
+      <a href="index.html">Voltar ao Inicio</a>
+    </header>
+
+    <!-- 1. Áudio incorporado diretamente do projeto -->
+    <h2>Áudio 1: Incorporado do Projeto</h2>
+    <audio controls>
+      <source src="audio 1.mp3" type="audio/mpeg" />
+    </audio>
+
+    <!-- 2. Áudio com source de algum endereço na web -->
+    <h2>Áudio 2: Fonte Externa da Web</h2>
+    <audio controls>
+      <source
+        src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
+        type="audio/mpeg"
+      />
+      Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+    <!-- 3. Áudio com três sources incorporados do projeto -->
+    <h2>Áudio 3</h2>
+    <audio controls>
+      <source src="audio 3.mp3" type="audio/mpeg" />
+      <source src="audio 2.mp3" type="audio/mpeg" />
+      <source src="audio 1.mp3" type="audio/mpeg" />
+      Seu navegador não suporta o elemento de áudio.
+    </audio>
+  </body>
+</html>

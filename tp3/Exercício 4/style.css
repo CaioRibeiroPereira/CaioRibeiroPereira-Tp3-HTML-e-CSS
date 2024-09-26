@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 200px;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+table {
+  background-color: rgb(128, 128, 168);
+  width: 700px;
+  height: 400px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+th,
+td {
+  border: 2px ridge rgb(85, 85, 126);
+  border-style: inset;
+}
+
+th {
+  color: yellow;
+  font-size: 30px;
+  padding: 10px;
+}
+
+td {
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+}

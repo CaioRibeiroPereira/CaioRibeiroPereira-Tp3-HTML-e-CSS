@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #36409b;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 20px;
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.navbar a:hover {
+  background-color: #4f58aa;
+  color: #fff;
+}
+
+footer {
+  padding: 200px;
+}

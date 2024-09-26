@@ -1,0 +1,29 @@
+header {
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: black;
+  color: white;
+  text-align: left;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(135, 145, 148);
+} /*linhas pares da tabela receberão essa cor*/
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+} /*linhas impares da tabela receberão essa cor*/
